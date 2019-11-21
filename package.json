@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "hot": "nodemon --watch app --watch libs app/server.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
