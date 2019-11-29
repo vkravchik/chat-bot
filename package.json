@@ -4,11 +4,16 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "hot": "nodemon --watch app --watch libs app/server.js"
+    "watch": "nodemon app.js "
   },
   "dependencies": {
     "discord.js": "^11.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "node-opus": "^0.3.3",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^1.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.0"
